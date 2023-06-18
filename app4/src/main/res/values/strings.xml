@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App4</string>
+    <string name="Titulo4">Motivo da ameaça de extinção</string>
+    <string name="OncaPintada">A onça-pintada está ameaçada de extinção por conta de fatores como perda de habitat e caça ilegal e tráfico, etc.</string>
+    <string name="LoboGuara">O lobo-guará está ameaçada de extinção por conta de fatores como  caça ilegal e tráfico, Atropelamentos e conflitos com humanos, etc.</string>
+    <string name="Panda">O panda-gigante está ameaçada de extinção por conta de fatores como  a perda de habitat  e escassez de alimentos,etc.</string>
+    <string name="Pinguimafricano">O pinguim-africano está ameaçada de extinção por conta de fatores como  a perda de habitat, derramamentos de petróleo e sobrepesca.</string>
+    <string name="botão1">Voltar</string>
+    <string name="botão2">Seguir</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App3</string>
+    <string name="Risco">Animais em risco de extinção</string>
+    <string name="bntanima1">Arara-azul</string>
+    <string name="btnanima2">Ariranha</string>
+    <string name="btnanima3">Boto cor-de-rosa</string>
+    <string name="btnanima4">Mico-leão-dourado</string>
+    <string name="botão1">Voltar</string>
+    <string name="botão2">Seguir</string>
+    <string name="Aviso">Clique nos nomes para mais informações!</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppAnimalsSustent</string>
+    <string name="Home">Home</string>
+    <string name="Titulo">Aplicativo de conscientização e prevenção à extinção de animais</string>
+    <string name="botão1">Animais</string>
+    <string name="botão2">Sustentabilidade</string>
+    <string name= "botão3">Como isso pode ajudar?</string>
+</resources>
