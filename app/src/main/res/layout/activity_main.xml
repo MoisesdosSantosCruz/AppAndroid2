@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgView1"
+        android:id="@+id/imgpolar"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_marginStart="93dp"
@@ -31,7 +31,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/txtView1"
+        android:id="@+id/txtHome"
         android:layout_width="415dp"
         android:layout_height="70dp"
         android:layout_marginStart="100dp"
@@ -51,7 +51,7 @@
         tools:ignore="VisualLintBounds,TextContrastCheck" />
 
     <TextView
-        android:id="@+id/txtview2"
+        android:id="@+id/txttitulo"
         android:layout_width="315dp"
         android:layout_height="100dp"
         android:layout_marginStart="185dp"
@@ -72,10 +72,10 @@
         android:textColorLink="@color/design_default_color_background"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imgView1"
+        app:layout_constraintBottom_toTopOf="@+id/imgpolar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtView1"
+        app:layout_constraintTop_toBottomOf="@+id/txtHome"
         tools:ignore="TextSizeCheck" />
 
     <Button
@@ -99,7 +99,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnLink2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgView1"
+        app:layout_constraintTop_toBottomOf="@+id/imgpolar"
         app:rippleColor="@color/white" />
 
     <Button
@@ -124,6 +124,7 @@
         app:rippleColor="@color/white" />
 
     <LinearLayout
+        android:id="@+id/viewborder"
         android:layout_width="415dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"

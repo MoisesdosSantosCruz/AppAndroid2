@@ -9,7 +9,7 @@
     tools:context=".MainActivity9">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtHome5"
         android:layout_width="415dp"
         android:layout_height="70dp"
         android:background="@drawable/ic_launcher_background"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtSobre"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="30dp"
@@ -35,11 +35,11 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/imgAnima5"
+        app:layout_constraintTop_toBottomOf="@+id/txtHome5" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtAviso"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
@@ -51,11 +51,11 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/imgAnima6"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtSobre2"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
@@ -67,11 +67,11 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/imgAnima7"
+        app:layout_constraintTop_toBottomOf="@+id/txtAviso" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtSobre4"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
@@ -83,30 +83,30 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toEndOf="@+id/imgAnima8"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAnima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="136dp"
         android:backgroundTint="@color/black"
         android:contentDescription="@string/Aviso"
         android:gravity="center_vertical"
+        android:onClick="linkMain7"
         android:text="@string/btnlink4"
         android:textColor="@color/white"
         android:textSize="14sp"
-        android:onClick="linkMain7"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/btnAnima2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima8"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAnima2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -118,12 +118,12 @@
         android:textSize="14sp"
         android:onClick="linkMain1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/btnAnima"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre4"
         tools:ignore="TouchTargetSizeCheck" />
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/viewborder4"
         android:layout_width="415dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
@@ -136,55 +136,55 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgAnima5"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="37dp"
         android:contentDescription="@string/Araraazul"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/txtSobre"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/txtHome5"
         app:srcCompat="@drawable/animal5" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgAnima6"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="42dp"
         android:contentDescription="@string/Ararinha"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/txtAviso"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima5"
         app:srcCompat="@drawable/animal6" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgAnima7"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="42dp"
         android:contentDescription="@string/botocorderosa"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/txtSobre2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima6"
         app:srcCompat="@drawable/animal7" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgAnima8"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="42dp"
         android:contentDescription="@string/Mitoleaodourado"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/txtSobre4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima7"
         app:srcCompat="@drawable/animal8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

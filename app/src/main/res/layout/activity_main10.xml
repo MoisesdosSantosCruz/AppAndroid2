@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewborder3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_launcher_background"
@@ -9,7 +10,7 @@
     tools:context=".MainActivity10">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtAviso"
         android:layout_width="415dp"
         android:layout_height="60dp"
         android:autoSizeTextType="none"
@@ -25,7 +26,7 @@
         tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtSobre"
         android:layout_width="350dp"
         android:layout_height="200dp"
         android:layout_marginStart="50dp"
@@ -42,10 +43,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtAviso" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtSobre2"
         android:layout_width="350dp"
         android:layout_height="200dp"
         android:layout_marginStart="20dp"
@@ -58,9 +59,9 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnima"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre" />
 
     <LinearLayout
         android:layout_width="415dp"
@@ -76,18 +77,18 @@
         app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAnima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="160dp"
         android:backgroundTint="@color/black"
+        android:onClick="linkMain1"
         android:text="@string/btnlink4"
         android:textColor="@color/white"
-        android:onClick="linkMain1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre2"
         app:rippleColor="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
