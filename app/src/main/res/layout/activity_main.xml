@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnlink3"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@drawable/ic_launcher_background"
@@ -9,7 +10,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgView1"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_marginStart="93dp"
@@ -30,7 +31,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtView1"
         android:layout_width="415dp"
         android:layout_height="70dp"
         android:layout_marginStart="100dp"
@@ -50,7 +51,7 @@
         tools:ignore="VisualLintBounds,TextContrastCheck" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtview2"
         android:layout_width="315dp"
         android:layout_height="100dp"
         android:layout_marginStart="185dp"
@@ -71,14 +72,14 @@
         android:textColorLink="@color/design_default_color_background"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/imgView1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/txtView1"
         tools:ignore="TextSizeCheck" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnLink1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
@@ -87,67 +88,45 @@
         android:layout_marginBottom="-10dp"
         android:backgroundTint="@color/brown"
         android:shadowColor="@color/black"
-        android:text="@string/botão1"
+        android:text="@string/btnlink1"
         android:textColor="@color/material_dynamic_tertiary100"
         android:textColorHighlight="@color/white"
         android:textColorHint="@color/white"
         android:textColorLink="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        android:onClick="linkMain2"
+        app:layout_constraintBottom_toTopOf="@+id/btnLink2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imgView1"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnLink2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="128dp"
-        android:layout_marginBottom="1dp"
         android:backgroundTint="@color/brown"
         android:shadowColor="@color/white"
-        android:text="@string/botão2"
+        android:text="@string/btnlink2"
         android:textColor="@color/material_dynamic_tertiary100"
         android:textColorHighlight="@color/black"
         android:textColorHint="@color/white"
         android:textColorLink="@color/white"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        android:onClick="linkMain10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:rippleColor="@color/white" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="100dp"
-        android:backgroundTint="@color/brown"
-        android:text="@string/botão3"
-        android:textColor="@color/material_dynamic_tertiary100"
-        android:textColorHighlight="@color/white"
-        android:textColorHint="@color/white"
-        android:textColorLink="@color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/btnLink1"
         app:rippleColor="@color/white" />
 
     <LinearLayout
         android:layout_width="415dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="-20dp"
         android:background="@drawable/ic_launcher_background"
@@ -155,7 +134,6 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"></LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,20 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main9);
     }
-
-    public void linkMain2(View view) {
-        Intent in = new Intent(MainActivity.this, MainActivity2.class);
+    public void linkMain7 (View view){
+        Intent in = new Intent(MainActivity9.this, MainActivity7.class);
         startActivity(in);
     }
-    public void linkMain10(View view) {
-        Intent in = new Intent(MainActivity.this, MainActivity10.class);
+    public void linkMain1(View view) {
+        Intent in= new Intent(MainActivity9.this, MainActivity.class);
         startActivity(in);
     }
 }

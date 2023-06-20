@@ -2,7 +2,41 @@
     <string name="app_name">AppAnimalsSustent</string>
     <string name="Home">Home</string>
     <string name="Titulo">Aplicativo de conscientização e prevenção à extinção de animais</string>
-    <string name="botão1">Animais</string>
-    <string name="botão2">Sustentabilidade</string>
-    <string name= "botão3">Como isso pode ajudar?</string>
+    <string name="btnlink1">Animais</string>
+    <string name="btnlink2">Sustentabilidade</string>
+    <string name="btnlink3">Como isso pode ajudar?</string>
+    <string name="titulo2">Animais em risco de extinção</string>
+    <string name="Anibtn1">Onça-Pintada</string>
+    <string name="Anibtn2">Lobo-Guará</string>
+    <string name="Anibtn3">Panda-Gigante</string>
+    <string name="Anibtn4">Pinguim-Africano</string>
+    <string name="bntanima1">Arara-azul</string>
+    <string name="btnanima2">Ariranha</string>
+    <string name="btnanima3">Boto cor-de-rosa</string>
+    <string name="btnanima4">Mico-leão-dourado</string>
+    <string name="btnlink4">Voltar</string>
+    <string name="btnlink5">Seguir</string>
+    <string name="Aviso">Clique nos nomes para mais informações!</string>
+    <string name="Oncapintada">Animal1</string>
+    <string name="LoboGuara">Animal2</string>
+    <string name="PandaGigante">Animal3</string>
+    <string name="PingumAfricano">Animal4</string>
+    <string name="OncaPintada">A onça-pintada está ameaçada de extinção por conta de fatores como perda de habitat e caça ilegal e tráfico, etc.</string>
+    <string name="LoboGuarav2">O lobo-guará está ameaçada de extinção por conta de fatores como  caça ilegal e tráfico, Atropelamentos e conflitos com humanos, etc.</string>
+    <string name="Panda">O panda-gigante está ameaçada de extinção por conta de fatores como  a perda de habitat  e escassez de alimentos,etc.</string>
+    <string name="Pinguimafricano">O pinguim-africano está ameaçada de extinção por conta de fatores como  a perda de habitat, derramamentos de petróleo e sobrepesca.</string>
+    <string name="Home_titulo">Motivo da ameaça de extinção</string>
+    <string name="Araraazul">A arara-azul está ameaçada de extinção por conta de fatores como perda de habitat, captura para o comércio ilegal e mudanças climáticas.</string>
+    <string name="Ararinha">A ariranha está ameaçada de extinção por conta de fatores como Poluição e envenenamento , conflitos com humanos e perda de habitat.</string>
+    <string name="botocorderosa">O boto cor-de-rosa está ameaçada de extinção por conta de fatores como  a degradação do habitat, pesca predatória e tráfico de animais.</string>
+    <string name="Mitoleaodourado">O mico-leão-dourado está ameaçada de extinção por conta de fatores como  caça e tráfico de animais, mudanças climáticas e perda de habitat.</string>
+    // ACTIVITY MAIN 6
+    <string name="titulo6">O que é sustentabilidade e como pode ajudar?</string>
+    <string name="sobre1">A sustentabilidade é um conceito que se refere à capacidade de suprir as necessidades atuais sem comprometer a capacidade das futuras gerações de suprir suas próprias necessidades. É baseada no princípio de equilíbrio entre os aspectos ambientais, sociais e econômicos, visando garantir a preservação do meio ambiente, o bem-estar das pessoas e o desenvolvimento econômico de forma integrada e responsável.
+ A sustentabilidade reconhece que todos os seres vivos e os sistemas naturais estão interligados, e que nossas ações como sociedade têm impactos sobre o meio ambiente e sobre a vida das pessoas. Assim, busca-se encontrar soluções que permitam o uso consciente dos recursos naturais, a redução do desperdício e a conservação da biodiversidade.</string>
+    <string name="sobre2">A sustentabilidade desempenha um papel fundamental na diminuição da extinção dos animais. Ações e práticas sustentáveis ajudam a preservar os ecossistemas naturais e a proteger a biodiversidade, o que é essencial para a sobrevivência de várias espécies. Algumas das práticas são:
+
+        -Conservação do habitat: Prezar pela conservação dos habitats.
+        -Redução da poluição: Reduzir a poluição ambiental, no qual afeta os animais.
+        -Combate à caça ilegal e ao comércio de animais selvagens: Faz com que menos animais morram em cativeiro ou na caça.</string>
 </resources>
