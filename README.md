@@ -15,4 +15,9 @@ Uma última ideia que não coloquei nas mudanças para fazer é recorrente a cri
 
 ***_Diagrama de Classe_***        
 
-![image](https://github.com/MoisesdosSantosCruz/AppAndroid2/assets/127457010/e50fcd46-ed13-4a2d-805d-7f70a663232d)
+![image](https://github.com/MoisesdosSantosCruz/AppAndroid2/assets/127457010/e66c1744-a3a6-4323-8e87-63c663cc2ed7)
+
+
+
+No diagrama o Usuário ele consulta os animais, consegue "visualizar". Além disso um usuário pode ver diversos animais, e vice-versa.      
+O Quiz só vai poder ser feito se tiver usuário (cadastrado/logado), por isso que foi colocado a dependência. Está como * porque vários usuários podem realizar vários quiz, e vice-versa.
