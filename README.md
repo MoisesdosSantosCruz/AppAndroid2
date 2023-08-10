@@ -13,5 +13,6 @@ A proposta do app é ser um aplicativo informativo sobre animais que correm risc
 O app em si além de ser informativo teria como logar e cadastrar, para assim conseguir fazer o Quiz.    
 Uma última ideia que não coloquei nas mudanças para fazer é recorrente a criar um chat aonde as pessoas poderiam interagir-se entre si para conversar sobre os animais, sustentabilidade, etc.
 
-***_Diagrama de Classe_***    
+***_Diagrama de Classe_***        
 
+![image](https://github.com/MoisesdosSantosCruz/AppAndroid2/assets/127457010/e50fcd46-ed13-4a2d-805d-7f70a663232d)
