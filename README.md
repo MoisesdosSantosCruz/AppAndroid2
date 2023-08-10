@@ -12,3 +12,6 @@ Aplicativo sobre animais e sustentabilidade
 A proposta do app é ser um aplicativo informativo sobre animais que correm risco de extinção, nisso correlacionamos com a sustentabilidade, que se usada de forma certa pode ser bom para os animais.    
 O app em si além de ser informativo teria como logar e cadastrar, para assim conseguir fazer o Quiz.    
 Uma última ideia que não coloquei nas mudanças para fazer é recorrente a criar um chat aonde as pessoas poderiam interagir-se entre si para conversar sobre os animais, sustentabilidade, etc.
+
+Diagrama de Classe
+![Uploading image.png…]()
