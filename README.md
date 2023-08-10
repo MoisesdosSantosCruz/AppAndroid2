@@ -14,4 +14,5 @@ O app em si além de ser informativo teria como logar e cadastrar, para assim co
 Uma última ideia que não coloquei nas mudanças para fazer é recorrente a criar um chat aonde as pessoas poderiam interagir-se entre si para conversar sobre os animais, sustentabilidade, etc.
 
 Diagrama de Classe
-![Uploading image.png…]()
+![image](https://github.com/MoisesdosSantosCruz/AppAndroid2/assets/127457010/24b50a42-3988-410c-a6e3-49ac55d2ec63)
+
