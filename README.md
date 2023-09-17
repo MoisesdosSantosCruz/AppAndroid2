@@ -2,7 +2,7 @@
 Aplicativo sobre animais e sustentabilidade    
 # Integrantes
 - Rebeca Martins
-- Renan Mitsuru 
+- Renan Mitsuru    
 ***_Mudanças para fazer_:***   
 
 1-Adicionar tela de login e cadastrar;   
