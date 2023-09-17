@@ -38,17 +38,18 @@
         android:layout_marginEnd="95dp"
         android:background="@drawable/ic_launcher_background"
         android:backgroundTint="@color/beige"
+        android:fontFamily="casual"
         android:freezesText="true"
         android:gravity="center|center_vertical"
-        android:text="@string/Home"
+        android:text="@string/Marca"
         android:textColor="@color/design_default_color_surface"
-        android:textSize="20sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="VisualLintBounds,TextContrastCheck" />
+        tools:ignore="VisualLintBounds,TextContrastCheck,TextSizeCheck" />
 
     <TextView
         android:id="@+id/txtview2"
@@ -83,10 +84,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="-10dp"
         android:backgroundTint="@color/brown"
+        android:onClick="linkMain2"
         android:shadowColor="@color/black"
         android:text="@string/btnlink1"
         android:textColor="@color/material_dynamic_tertiary100"
@@ -95,9 +97,9 @@
         android:textColorLink="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:onClick="linkMain2"
         app:layout_constraintBottom_toTopOf="@+id/btnLink2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgView1"
         app:rippleColor="@color/white" />
@@ -123,6 +125,28 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLink1"
         app:rippleColor="@color/white" />
 
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="@color/brown"
+        android:onClick="linkQuiz"
+        android:shadowColor="@color/white"
+        android:text="@string/Quizur"
+        android:textColor="@color/material_dynamic_tertiary100"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLink1"
+        app:rippleColor="@color/white" />
+
     <LinearLayout
         android:layout_width="415dp"
         android:layout_height="60dp"
@@ -134,6 +158,17 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintBounds">
+
+        <TextView
+            android:id="@+id/txtCliente"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

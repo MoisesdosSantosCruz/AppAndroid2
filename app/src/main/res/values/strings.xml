@@ -39,4 +39,26 @@
         -Conservação do habitat: Prezar pela conservação dos habitats.
         -Redução da poluição: Reduzir a poluição ambiental, no qual afeta os animais.
         -Combate à caça ilegal e ao comércio de animais selvagens: Faz com que menos animais morram em cativeiro ou na caça.</string>
+
+    <string name="Login">Login-></string>
+    <string name="ContentLogin">Login</string>
+    <string name="AvisoLogin">Não tem uma conta? Cadastre-se aqui</string>
+    <string name="Pata">Pata</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Usuario">Usuário</string>
+    <string name="Senha">Senha</string>
+    <string name="ExEmail">exemplo@gmail.com</string>
+    <string name="HintSenha">4-12 Caracteres</string>
+    <string name="NomeCli">Nome</string>
+    <string name="SobrenomeCli">Sobrenome</string>
+    <string name="Email">E-Mail</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Logar">Logar</string>
+    <string name="User">Digite seu User</string>
+    <string name="MinUser">1-14 Caracteres</string>
+    <string name="Marca">EcoFauna</string>
+    <string name="Quizur">Quiz</string>
+    <string name="Quiz1">Quiz 1</string>
+    <string name="Quiz2">Quiz 2</string>
+    <string name="Quiz3">Quiz 3</string>
 </resources>

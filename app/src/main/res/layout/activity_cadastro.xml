@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="114dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="50dp"
+            android:contentDescription="@string/Pata"
+            app:srcCompat="@drawable/patapatinha" />
+
+        <TextView
+            android:id="@+id/txtEmailCli"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginEnd="189dp"
+            android:text="@string/Usuario"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/txtEmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/MinUser"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#616161" />
+
+        <TextView
+            android:id="@+id/txtEmailCli2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="165dp"
+            android:text="@string/Senha"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="30dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/HintSenha"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#616161" />
+
+        <Button
+            android:id="@+id/btnCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="80dp"
+            android:backgroundTint="@color/beige"
+            android:onClick="linkLogin"
+            android:text="@string/Cadastrar"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCadastramento"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="181dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/Cadastro"
+            android:textSize="60sp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

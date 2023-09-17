@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbeige"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogoPatinha"
+            android:layout_width="114dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/Pata"
+            app:srcCompat="@drawable/patapatinha" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:text="@string/ContentLogin"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtUsuario"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/Usuario"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/editUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:ems="10"
+            android:hint="@string/User"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#616161"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/txtSenha"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="177dp"
+            android:text="@string/Senha"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="40dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/HintSenha"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#616161" />
+
+        <Button
+            android:id="@+id/btnLogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/brown"
+            android:onClick="linkMain"
+            android:text="@string/Logar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAvisoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/AvisoLogin"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:backgroundTint="@color/brown"
+            android:onClick="linkCadastro"
+            android:text="@string/Cadastrar"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
