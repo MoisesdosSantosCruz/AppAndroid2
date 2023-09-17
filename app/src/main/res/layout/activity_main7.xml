@@ -9,20 +9,20 @@
     tools:context=".MainActivity7">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgAnima5"
         android:layout_width="150dp"
         android:layout_height="95dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="79dp"
         android:contentDescription="@string/Anibtn2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imgAnima6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtviewv1"
+        app:layout_constraintTop_toBottomOf="@+id/txtRisco"
         app:srcCompat="@drawable/arara_azul" />
 
     <TextView
-        android:id="@+id/txtviewv1"
+        android:id="@+id/txtRisco"
         android:layout_width="415dp"
         android:layout_height="60dp"
         android:background="@drawable/ic_launcher_background"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtAviso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
@@ -51,10 +51,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtviewv1" />
+        app:layout_constraintTop_toBottomOf="@+id/txtRisco" />
 
     <LinearLayout
-        android:id="@+id/txt"
+        android:id="@+id/viewborder2"
         android:layout_width="415dp"
         android:layout_height="100dp"
         android:layout_marginStart="1dp"
@@ -68,95 +68,101 @@
         app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnSeguir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="157dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/black"
-        android:text="@string/Home"
         android:onClick="linkMain1"
+        android:text="@string/Home"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/btnVoltar"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnima4"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/black"
-        android:text="@string/btnlink4"
         android:onClick="linkMain2"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        android:text="@string/btnlink4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeguir"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnima3"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnAnima4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="100dp"
         android:backgroundTint="@color/brown"
-        android:text="@string/btnanima4"
         android:onClick="linkMain9"
+        android:text="@string/btnanima4"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/btnAnima3"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima8"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnAnima3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="39dp"
         android:backgroundTint="@color/brown"
-        android:text="@string/btnanima3"
         android:onClick="linkMain9"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        android:text="@string/btnanima3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btnAnima4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima7"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAnima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="74dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="122dp"
         android:backgroundTint="@color/brown"
-        android:text="@string/bntanima1"
         android:onClick="linkMain9"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        android:text="@string/bntanima1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btnAnima2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima5"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAnima2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-40dp"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="80dp"
         android:backgroundTint="@color/brown"
-        android:text="@string/btnanima2"
         android:onClick="linkMain9"
+        android:text="@string/btnanima2"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/btnAnima"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima5"
         app:rippleColor="@color/white" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgAnima8"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="-60dp"
@@ -164,25 +170,25 @@
         android:layout_marginEnd="13dp"
         android:contentDescription="@string/Panda"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/imgAnima7"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnima2"
         app:srcCompat="@drawable/mico_le_o_dourado" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgAnima7"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="100dp"
         android:contentDescription="@string/Aviso"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imgAnima8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnima5"
         app:srcCompat="@drawable/boto_cor_de_rosa" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgAnima6"
         android:layout_width="150dp"
         android:layout_height="90dp"
         android:layout_marginStart="-50dp"
@@ -191,8 +197,8 @@
         android:contentDescription="@string/Anibtn3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txtviewv1"
+        app:layout_constraintStart_toEndOf="@+id/imgAnima5"
+        app:layout_constraintTop_toBottomOf="@+id/txtRisco"
         app:srcCompat="@drawable/ararinha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
