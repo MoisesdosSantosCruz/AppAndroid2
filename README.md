@@ -23,3 +23,7 @@ Uma última ideia que não coloquei nas mudanças para fazer é recorrente a cri
 
 No diagrama o Usuário ele consulta os animais, consegue "visualizar". Além disso um usuário pode ver diversos animais, e vice-versa.      
 O Quiz só vai poder ser feito se tiver usuário (cadastrado/logado), por isso que foi colocado a dependência. Está como * porque vários usuários podem realizar vários quiz, e vice-versa.
+
+## Video do APP
+
+![Video](https://github.com/MoisesdosSantosCruz/AppAndroid2/blob/teste/MostrandoApp.mp4)
